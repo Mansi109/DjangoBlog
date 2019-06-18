@@ -20,4 +20,5 @@ class BlogPost(models.Model): #blogpost_set -> queryset
 
 	def get_delete_url(self):
 		return f"{self.get_absolute_url}/delete"
+	
 

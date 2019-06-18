@@ -25,7 +25,8 @@ SECRET_KEY = '31n)-7cn_1^=a6k0h(5i%-vrb)=d9kac1bgu^u^2n_yy=wk!)0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['09585700.ngrok.io',
+'127.0.0.1']
 
 LOGIN_URL= '/login'
 
@@ -40,6 +41,7 @@ INSTALLED_APPS = [  #components
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
