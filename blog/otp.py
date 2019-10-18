@@ -39,4 +39,4 @@ def VerifyOtp(mobile, otp):
 
 
 print(SendOtp(7210977769))
-#print(VerifyOtp(8840565787,1234))
+print(VerifyOtp(9811710521,1234))
